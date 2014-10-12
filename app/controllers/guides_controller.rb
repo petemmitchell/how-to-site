@@ -43,5 +43,4 @@ class GuidesController < ApplicationController
   def guide_params
     params.require(:guide).permit(:name, :id)
   end
-
 end
